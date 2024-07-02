@@ -8,6 +8,8 @@ import {LoginButton} from "@/components/auth/LoginButton"
 import { ModeToggle } from "@/components/themeButton";
 import { AdvertBar } from "@/components/addsBar/AdvertBar";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const inter = Roboto({ subsets: ["latin"], weight: ["100","300","400","500","700","900"]});
 
 
@@ -48,6 +50,7 @@ export default function RootLayout({
                 <Navbar/>
               </div>
             </Providers>
+            <SpeedInsights/>
           </body>
         </html>
   );
