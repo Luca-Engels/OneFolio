@@ -13,6 +13,22 @@ export const getUserByEmail = async (email:string) => {
     return null
   }
 }
+export const createAdvert = async (update:{}) => {
+  try {
+    const response = await fetch(BACKEND_URL+"/adverts/",{
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(update)
+    })
+    const users = await response.json()
+    return users
+  } catch (e){
+    console.error(e)
+    return null
+  }
+}
 export const updateUser = async (id:string,update:{}) => {
   try {
     const response = await fetch(BACKEND_URL+"/users/"+id+"/", {

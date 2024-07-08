@@ -58,7 +58,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                         <FormLabel className="p-2 pb-1 flex flex-row gap-2">Vorname <p className="text-destructive">*</p></FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="Max" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="Max" />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -66,7 +66,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Nachname <p className="text-destructive">*</p></FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="Mustermann" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="Mustermann" />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -75,7 +75,7 @@ export const RegisterForm = () => {
                                 <FormItem>
                                 <FormLabel className="p-2 pb-1 flex flex-row gap-2">E-Mail <p className="text-destructive">*</p></FormLabel>
                                     <FormControl className=" border-def rounded-lg">
-                                        <Input {...field} disabled={isPending} placeholder="Mustermann@example.com" type="email" className="text-black" />
+                                        <Input {...field} disabled={isPending} placeholder="Mustermann@example.com" type="email"  />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>)} />
@@ -83,7 +83,7 @@ export const RegisterForm = () => {
                                 <FormItem>
                                 <FormLabel className="p-2 pb-1 flex flex-row gap-2">Password <p className="text-destructive">*</p></FormLabel>
                                     <FormControl className=" border-def rounded-lg">
-                                        <Input {...field} disabled={isPending} placeholder="********" type="password" className="text-black" />
+                                        <Input {...field} disabled={isPending} placeholder="********" type="password"  />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>)} />
@@ -91,7 +91,7 @@ export const RegisterForm = () => {
                                 <FormItem>
                                 <FormLabel className="p-2 pb-1 flex flex-row gap-2">Password bestätigen <p className="text-destructive">*</p></FormLabel>
                                     <FormControl className=" border-def rounded-lg">
-                                        <Input {...field} disabled={isPending} placeholder="********" type="password" className="text-black" />
+                                        <Input {...field} disabled={isPending} placeholder="********" type="password"  />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>)} />
@@ -103,7 +103,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Straße</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="Musterstraße" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="Musterstraße"  />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -111,7 +111,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Hausnr.</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="31a" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="31a"  />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -119,7 +119,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Plz.</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="12345" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="12345"  />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -127,7 +127,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Wohnort</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="Musterstadt" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="Musterstadt"  />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />
@@ -137,7 +137,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Telefonnummer</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="+49 123 123456789" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="+49 123 123456789"  />
                                         </FormControl>
                                     <FormMessage />
                                 </FormItem>)} />
@@ -145,7 +145,7 @@ export const RegisterForm = () => {
                                     <FormItem>
                                     <FormLabel className="p-2 pb-1 flex flex-row gap-2">Land</FormLabel>
                                         <FormControl className=" border-def rounded-lg">
-                                            <Input {...field} disabled={isPending} placeholder="Deutschland" className="text-black" />
+                                            <Input {...field} disabled={isPending} placeholder="Deutschland"  />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>)} />

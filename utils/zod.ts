@@ -8,6 +8,13 @@ export const signInSchema = z.object({
     .min(1, "Password ist benötigt"),
 })
 
+export const advertSchema = z.object({
+  title: z.string()
+    .min(1, "Ein Titel ist benötigt"),
+  link: z.string()
+    .min(1, "Ein Link ist benötigt"),
+  image: z.instanceof(File),
+})
 
 export const signUpSchema = z.object({
   email: z.string()
