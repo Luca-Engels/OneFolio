@@ -54,6 +54,7 @@ export const editObject = (toFind: {}, iterate: {},toAdd:any[]) => {
     return fullNewList
 }
 
+//deletes key of value from selList in modList
 export const deleteFromSelection = (toDelete: string, modList: {}, selList: {}) => {
     const one = modList[toDelete as keyof typeof modList] as []
     const two = selList[toDelete as keyof typeof selList]
